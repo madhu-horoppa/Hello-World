@@ -7,7 +7,7 @@
   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
  xmlns:context="http://www.springframework.org/schema/context">
 
-   <aop:aspectj-autoproxy/>
+/*   <aop:aspectj-autoproxy/>  */
  <bean id="triangle" class="com.test.App.Triangle">
   <property name="name" value="triangle drawn"></property>
   </bean>
