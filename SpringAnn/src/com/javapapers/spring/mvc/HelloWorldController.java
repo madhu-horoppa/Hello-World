@@ -18,6 +18,7 @@ public class HelloWorldController {
   public String hi(@RequestParam("name") String name, Model model) {
     String message = "Hi " + name + "!";
     model.addAttribute("message", message);
+	System.out.println("-------");
     return "hi";
   }
  
